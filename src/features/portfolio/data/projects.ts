@@ -46,6 +46,7 @@ export const PROJECTS: Project[] = [
     period: {
       start: "10.2023",
     },
+    link: "#",
     skills: [
       "React",
       "TypeScript",
@@ -82,6 +83,7 @@ export const PROJECTS: Project[] = [
       start: "08.2022",
       end: "10.2023",
     },
+    link: "#",
     skills: [
       "C#",
       ".NET",
@@ -106,6 +108,7 @@ export const PROJECTS: Project[] = [
       start: "09.2021",
       end: "03.2022",
     },
+    link: "#",
     skills: [
       "Python",
       "GIS",
