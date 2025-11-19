@@ -2,263 +2,124 @@ import type { Project } from "../types/projects";
 
 export const PROJECTS: Project[] = [
   {
-    id: "react-wheel-picker",
-    title: "React Wheel Picker",
+    id: "enterprise-visitor-management",
+    title: "Enterprise Visitor Management System",
     period: {
-      start: "05.2025",
+      start: "06.2025",
     },
-    link: "https://react-wheel-picker.chanhdai.com",
+    link: "https://www.sombrasol.tech/",
+    logo: "/audio/logo/sombrasol.ico",
     skills: [
-      "Open Source",
-      "React",
+      "Company Project",
       "TypeScript",
-      "Monorepo",
-      "Turborepo",
-      "pnpm-workspace",
-      "Package Publishing",
-      "NPM Registry",
-      "GitHub Actions",
+      "SQL Server",
+      "REST APIs",
+      "JWT Authentication",
+      "Role-Based Access Control",
+      "Hardware Integration",
+      "Barcode Scanning",
+      "Mobile Responsive",
+      "Legacy System Integration",
+      "DBF Import",
     ],
-    description: `iOS-like wheel picker for React with smooth inertia scrolling and infinite loop support. / Backed by [▲Vercel OSS Program](https://vercel.com/blog/summer-2025-oss-program#react-wheel-picker)
-- 📱 Natural touch scrolling with smooth inertia effect
-- 🖱️ Mouse drag and scroll support for desktop
-- 🔄 Infinite loop scrolling
-- 🎨 Unstyled components for complete style customization
-- ⚡️ Easy installation via shadcn CLI
-`,
-    logo: "https://assets.chanhdai.com/images/project-logos/react-wheel-picker.svg",
+    description: `Designed, prototyped, and implemented a comprehensive visitor management platform for [SombraSol](https://www.sombrasol.tech/) deployed across 6+ facilities, processing 100,000+ registrations with 99.9% uptime.
+
+**Key Features:**
+
+- **Hardware Integration**: Barcode/ID scanners with real-time data validation and automated license parsing
+- **Security & Access Control**: JWT authentication with role-based permissions and comprehensive audit trails
+- **Legacy System Support**: DBF file imports and bulk data migration for seamless transition
+- **Mobile Optimization**: Responsive interface optimized for tablets and mobile devices, improving field operations efficiency by 35%
+- **High Availability**: Enterprise-grade reliability with 99.9% uptime across multiple facilities
+
+**Technical Achievements:**
+
+- Processed 100,000+ visitor registrations
+- Deployed across 6+ facilities
+- 35% improvement in field operations efficiency
+- Comprehensive security compliance with audit trails`,
     isExpanded: true,
   },
   {
-    id: "chanhdaidotcom",
-    title: "chanhdai.com",
+    id: "Dynamic SQL Query Engine",
+    title: "Dynamic SQL Query Engine",
     period: {
-      start: "01.2025",
+      start: "10.2023",
     },
-    link: "https://github.com/ncdai/chanhdai.com",
     skills: [
-      "Open Source",
-      "Next.js 16",
-      "Tailwind CSS v4",
-      "Radix UI",
-      "Motion",
-      "shadcn/ui",
-      "Component Registry",
-      "Vercel",
-    ],
-    description: `A minimal, pixel-perfect dev portfolio, component registry, and blog.
-
-**Featured:**
-
-- Clean & modern design
-- Light/Dark themes
-- vCard integration
-- SEO optimized ([JSON-LD schema](https://json-ld.org), sitemap, robots)
-- AI-ready with [/llms.txt](https://llmstxt.org)
-- Spam-protected email
-- Installable as PWA
-
-**Blog:**
-
-- Supports MDX & Markdown
-- Raw \`.mdx\` endpoints for AI readability
-- Syntax highlighting for clear code presentation
-- Dynamic OG images for rich link previews
-- RSS feed for easy content distribution
-
-**Registry:**
-
-- Easily build and distribute reusable components, hooks, and pages using a custom registry powered by the [shadcn CLI](https://ui.shadcn.com/docs/cli).
-- Each entry is well-documented and includes:
-  - Live preview & code snippets
-  - Beautiful, readable code blocks
-  - One-click command blocks (pnpm, npm, yarn, bun)`,
-    logo: "https://assets.chanhdai.com/images/project-logos/chanhdaidotcom.svg",
-  },
-  {
-    id: "quaricdotcom",
-    title: "quaric.com",
-    period: {
-      start: "03.2024",
-    },
-    link: "https://quaric.com",
-    skills: [
-      "Company Project",
-      "Next.js 15",
-      "Tailwind CSS v3",
-      "shadcn/ui",
-      "Strapi 5",
-      "VNPAY-QR",
+      "React",
+      "TypeScript",
+      "GraphQL",
+      "Microservices",
       "Docker",
-      "Docker Compose",
-      "NGINX",
+      "Kubernetes",
+      "GitLab CI/CD",
+      "Terraform",
+      "AWS GovCloud",
+      "Multi-Enclave Architecture",
+      "Security Engineering",
     ],
-    logo: "https://assets.chanhdai.com/images/project-logos/quaricdotcom.svg",
+    description: `Lead development of mission-critical applications supporting operations across multi-enclave environments (Unclassified, Secret, Top Secret).
+
+**Key Contributions:**
+
+- **Dynamic Query Engine**: Built SQL-based query engine with GraphQL integration achieving sub-second response times
+- **Microservices Architecture**: Designed scalable microservices using React, TypeScript, Docker, and Kubernetes
+- **DevSecOps Pipeline**: Implemented comprehensive CI/CD with GitLab, Terraform, and AWS GovCloud
+- **Component Libraries**: Published enterprise-grade libraries establishing coding standards across teams
+- **Security Engineering**: Ensured compliance with government security standards across multiple enclaves
+
+**Technical Leadership:**
+
+- Led SAFe Agile ceremonies (PI Planning, Sprint Planning, ART)
+- Conducted code architecture sessions and technical milestone reviews
+- Established best practices and knowledge transfer across development teams`,
   },
   {
-    id: "zadark",
-    title: "ZaDark",
+    id: "security-cooperation-funding",
+    title: "U.S. Security Cooperation Funding System",
     period: {
-      start: "01.2022",
+      start: "08.2022",
+      end: "10.2023",
     },
-    link: "https://zadark.com",
     skills: [
-      "Pet Project",
-      "Open Source",
-      "Browser Extension",
-      "CLI",
-      "Docusaurus 3",
+      "C#",
+      ".NET",
+      "SQL Server",
+      "Visual Basic",
+      "Security Engineering",
+      "Government Compliance",
     ],
-    description: `ZaDark adds Dark Mode, anti-peeking, customizable fonts, backgrounds, and more to Zalo Web and PC.
-- Earned 10M+ VND in net sales from a paid Safari Extension
-- 80k+ downloads on SourceForge (awarded Community Leader badge by SourceForge)
-- 20k+ active users via Chrome Web Store (as of Sep 2025)
-- Bronze Medal — 10th Design, Manufacturing, and Application Award 2022`,
-    logo: "https://assets.chanhdai.com/images/project-logos/zadark.svg",
+    description: `Designed and managed mission-critical applications for U.S. security cooperation funding with strict reliability, audit, and compliance requirements.
+
+**Responsibilities:**
+
+- Developed and maintained C# .NET applications for funding management
+- Supported legacy Visual Basic systems and database integrations
+- Implemented security engineering protocols and proactive code analysis
+- Ensured compliance with federal security standards and best practices`,
   },
   {
-    id: "qabox",
-    title: "QABox",
+    id: "gis-data-processing",
+    title: "Storm Sewer GIS Data Processing System",
     period: {
-      start: "07.2023",
-      end: "07.2023",
+      start: "09.2021",
+      end: "03.2022",
     },
-    link: "https://github.com/ncdai/qabox",
     skills: [
-      "University Project",
-      "PHP",
-      "MySQL",
-      "MVC",
-      "Docker",
-      "Docker Compose",
+      "Python",
+      "GIS",
+      "Data Processing",
+      "Automation",
+      "Email Integration",
     ],
-    description:
-      "- Course: Distributed Applications — FIT@HCMUS\n- Project Score: 10/10\n- Source Code: https://github.com/ncdai/qabox",
-  },
-  {
-    id: "taskbox",
-    title: "TaskBox",
-    period: {
-      start: "07.2023",
-      end: "07.2023",
-    },
-    link: "https://github.com/ncdai/taskbox",
-    skills: [
-      "University Project",
-      "PHP",
-      "MySQL",
-      "MVC",
-      "Docker",
-      "Docker Compose",
-    ],
-    description:
-      "- Course: Distributed Applications — FIT@HCMUS\n- Project Score: 10/10\n- Source Code: https://github.com/ncdai/taskbox",
-  },
-  {
-    id: "daichat-app",
-    title: "DaiChat App",
-    period: {
-      start: "07.2020",
-      end: "07.2020",
-    },
-    link: "https://www.youtube.com/watch?v=H5U3J_W1low",
-    skills: ["University Project", "Java", "Java Swing", "Java Networking"],
-    description: `- Course: Java Application Programming — FIT@HCMUS
-- Requirement: Developed a real-time chat application using Java technologies
-- Project Score: 10/10
-- Source Code:
-  - Server: https://github.com/ncdai/ltudjava-summer2020-chatapp_server
-  - Client: https://github.com/ncdai/ltudjava-summer2020-chatapp_client`,
-  },
-  {
-    id: "qlsv-app",
-    title: "QLSV App",
-    period: {
-      start: "06.2020",
-      end: "06.2020",
-    },
-    link: "https://www.youtube.com/watch?v=tG9SZEBrwog",
-    skills: ["University Project", "Java", "Java Swing", "Hibernate", "MySQL"],
-    description: `- Course: Java Application Programming — FIT@HCMUS
-- Requirement: Built a student management system with role-based functionalities using Java technologies
-- Project Score: 10/10
-- Source Code: https://github.com/ncdai/ltudjava-summer2020-hibernate`,
-  },
-  {
-    id: "penphy",
-    title: "Penphy",
-    period: {
-      start: "01.2019",
-      end: "08.2019",
-    },
-    link: "https://www.youtube.com/watch?v=EdU7rUO-UA4",
-    skills: ["Startup Project", "JavaScript", "React Native"],
-    description: "2nd Prize — Business Startup Competition 2019",
-  },
-  {
-    id: "unlimitedstudy",
-    title: "UnlimitedStudy",
-    period: {
-      start: "01.2017",
-      end: "08.2018",
-    },
-    link: "https://muctim.tuoitre.vn/cong-cu-ho-tro-viec-day-va-hoc-55107.htm",
-    skills: [
-      "National Competition",
-      "Creative Software",
-      "PHP",
-      "Laravel 4",
-      "MySQL",
-      "jQuery",
-      "Bootstrap 3",
-    ],
-    description: `UnlimitedStudy is a website that provides teaching and learning support tools for teachers and students.
-- 3rd Prize — National Science and Engineering Fair 2018 (ViSEF)
-- 1st Prize — Can Tho City Science and Engineering Fair 2018
-- 3rd Prize — National Young Informatics Contest 2018
-- 2nd Prize — Can Tho City Youth and Children's Creativity Contest 2018
-- 3rd Prize — Can Tho City Young Informatics Contest 2018
-- Reached 7k+ users, mainly high school students in Can Tho City
-- Pilot implemented in high schools across Can Tho City with English quizzes, supervised by English subject specialists from the Can Tho City Department of Education and Training`,
-    logo: "https://assets.chanhdai.com/images/project-logos/unlimitedstudy.webp",
-  },
-  {
-    id: "dmessage",
-    title: "DMessage",
-    period: {
-      start: "05.2017",
-      end: "05.2017",
-    },
-    link: "https://github.com/ncdai/DMessage",
-    skills: [
-      "Self-learning Project",
-      "Pet Project",
-      "Express.js",
-      "Socket.io",
-      "MongoDB",
-      "Mongoose ODM",
-    ],
-    description:
-      "A Messenger clone built to practice real-time communication using Socket.IO. This project showcases my self-learning journey in implementing WebSockets for instant messaging.",
-  },
-  {
-    id: "study-english",
-    title: "Study English",
-    period: {
-      start: "11.2016",
-      end: "12.2017",
-    },
-    link: "https://www.youtube.com/watch?v=OYgugvjqU4A",
-    skills: [
-      "National Competition",
-      "Creative Software",
-      "PHP",
-      "Laravel 4",
-      "MySQL",
-    ],
-    description: `Study English is a free, mobile-friendly website for high school English learning, offering vocabulary, quizzes, listening practice, and more.
-- Consolation Prize — National Youth and Children's Creativity Contest 2016
-- 1st Prize — Can Tho City Youth and Children's Creativity Contest 2016
-- Consolation Prize — Can Tho City Young Informatics Contest 2016`,
+    description: `Developed Python-based application for large-scale processing of storm sewer GIS data for Orange County Government.
+
+**Key Features:**
+
+- Consolidated fragmented datasets into centralized system
+- Unified UI for querying GIS data and generating automated emails
+- Automated communication workflows for county operations teams
+- Improved data accessibility and analytics capabilities`,
   },
 ];

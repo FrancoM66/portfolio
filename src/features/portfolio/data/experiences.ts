@@ -2,233 +2,184 @@ import type { Experience } from "../types/experiences";
 
 export const EXPERIENCES: Experience[] = [
   {
-    id: "simplamo",
-    companyName: "Simplamo Enterprise JSC",
-    companyLogo: "https://assets.chanhdai.com/images/companies/simplamo.webp",
+    id: "booz-allen-hamilton",
+    companyName: "Booz Allen Hamilton ",
+    companyLogo:
+      "https://media.licdn.com/dms/image/v2/D4E0BAQFXBzVcVDSTOQ/company-logo_100_100/company-logo_100_100/0/1737465459820/booz_allen_hamilton_logo?e=1765411200&v=beta&t=1So2aVXlKXECv9Eem8KRWwiC1-gcX1iJ5IttsAK5BCA",
     positions: [
       {
-        id: "20f8bfe5-b6a3-4b0d-ac2f-6fccd50d417e",
-        title: "Senior Frontend Developer",
+        id: "lead-software-engineer",
+        title: "Lead Software Engineer",
         employmentPeriod: {
-          start: "10.2022",
+          start: "04.2025",
         },
         employmentType: "Full-time",
         icon: "code",
-        description: `- Develop [AI Chat](https://help.simplamo.com/features/simplamo-ai/ai-chat/guide_simplamo_ai_chat?ref=IN-926722) and [AI Assistant](https://help.simplamo.com/features/simplamo-ai/ai-expert/aiexpert-rockdiscribe?ref=IN-926722) features.
-- Develop [Whiteboards](https://help.simplamo.com/features/whiteboard/overview?ref=IN-926722) with real-time collaboration.
-- Build and maintain the [Zalo Mini App](https://zalo.me/s/1736112917405511258/) for Simplamo with seamless integration.
-- Develop interactive chart and analytics widgets for the [Dashboard](https://help.simplamo.com/features/dashboard/overview) to enhance data visualization.
-- Develop and maintain core features to enhance functionality and user experience.
-- Ensure UI/UX consistency and adherence to standards.
-- Implement robust frontend solutions for web and mobile platforms.
-- Analyze technical capabilities and provide optimal solutions.`,
+        description: `- Lead sprint planning activities, Program Increments (PIs), and Agile Release Train (ART) ceremonies while collaborating with Product Owners to align technical execution with business objectives supporting critical FBI forensic and investigative systems.
+- Design, develop, test, and manage complex application development projects across multi-enclave environments (Unclassified, Secret, and Top Secret) with emphasis on security engineering principles and performance optimization.
+- Architect microservices-based solutions using modern full-stack technologies (React, TypeScript), containerization (Docker, Kubernetes) to ensure scalability and seamless integration.
+- Designed and implemented a dynamic SQL-based query engine with GraphQL integration, advanced filtering, and data aggregation across multiple databases, achieving sub-second response times through optimized indexing strategies.
+- Implement comprehensive DevSecOps practices using GitLab CI/CD pipelines, Infrastructure as Code (Terraform), automated testing frameworks, and security scanning tools deployed to AWS GovCloud environments.
+- Built and published enterprise-grade component libraries and internal packages, establishing coding standards, best practices knowledge transfer, and documentation across multiple development teams.
+- Participate in technical project milestone reviews and code architecture sessions, providing resource estimation and contributing to all aspects of the software development life cycle.`,
         skills: [
           "TypeScript",
-          "Next.js",
-          "React Native",
-          "MobX",
-          "MobX-State-Tree",
-          "Tailwind CSS",
-          "Dify",
-          "Zalo Mini App",
-          "Agile",
-          "Teamwork",
-          "Research",
-          "Problem-solving",
+          "React",
+          "Angular",
+          "GraphQL",
+          "Microservices",
+          "Docker",
+          "Kubernetes",
+          "GitLab CI/CD",
+          "Terraform",
+          "AWS GovCloud",
+          "SQL Server",
+          "PostgreSQL",
+          "SAFe Agile",
+          "Security Engineering",
+          "Top Secret Clearance",
         ],
         isExpanded: true,
       },
       {
-        id: "cedd7adb-4118-4085-9983-ae00530b49e2",
-        title: "UI Design Lead",
+        id: "software-engineer",
+        title: "Software Engineer",
         employmentPeriod: {
-          start: "10.2022",
+          start: "10.2023",
+          end: "04.2025",
         },
         employmentType: "Full-time",
-        icon: "design",
-        description: `- Ensure UI/UX consistency and high-quality standards.
-- Design intuitive, user-focused interfaces aligned with business goals.
-- Define and establish a cohesive UI style for Simplamo.`,
-        skills: ["Creativity", "UI/UX Design", "Figma"],
+        icon: "code",
+        description: `- Developed modular, enterprise-level applications using TypeScript/JavaScript and Angular/React frameworks with extensive SQL database integration, RESTful APIs, and GraphQL supporting government operations.
+- Designed distributed system architecture with microservices approach, integrating third-party components and introducing custom capabilities to enable scalable development for mission-critical applications.
+- Participated in SAFe Agile ceremonies including sprint planning, PI planning, reviews, and retrospectives while conducting technical requirements analysis, quality assurance, and comprehensive testing strategies.
+- Automated operations and maintenance tasks through deployment pipelines and infrastructure-as-code practices using Docker containerization and AWS cloud services.
+- Collaborated with cross-functional teams to ensure seamless integration and supported development efforts across multiple security enclaves.`,
+        skills: [
+          "TypeScript",
+          "JavaScript",
+          "Angular",
+          "React",
+          "SQL",
+          "RESTful APIs",
+          "GraphQL",
+          "Microservices",
+          "Docker",
+          "AWS",
+          "SAFe Agile",
+          "DevSecOps",
+        ],
       },
     ],
     isCurrentEmployer: true,
   },
   {
-    id: "quaric",
-    companyName: "Quaric Co., Ltd.",
-    companyLogo: "https://assets.chanhdai.com/images/companies/quaric.svg",
+    id: "graham-tech",
+    companyName: "Graham-Tech (USSOUTHCOM)",
     positions: [
       {
-        id: "30d3a9fb-021d-452a-9d27-83655369b4b9",
-        title: "Design Engineer",
+        id: "software-engineer-graham",
+        title: "Software Engineer",
         employmentPeriod: {
-          start: "03.2024",
-        },
-        employmentType: "Part-time",
-        icon: "code",
-        description: `- Created Quaric Brand Identity.
-- Created the Quaric Design System to standardize design practices and accelerate development.
-
-In-house Project: [Quaric Website](https://quaric.com)
-- Designed the UI/UX for Quaric Website, delivering a seamless experience.
-- Developed online ordering to streamline purchases.
-- Integrated VNPAY-QR for secure transactions.
-- Registered the e-commerce site with [online.gov.vn](http://online.gov.vn/website/chi-tiet-115855) for compliance.
-
-In-house Project: [ZaDark](https://zadark.com)
-- Build and maintain ZaDark.com with Docusaurus, integrating AdSense.
-- Develop and maintain the ZaDark extension for Zalo Web on Chrome, Safari, Edge, and Firefox — with 20k+ active users via Chrome Web Store (as of Sep 2025).`,
-        skills: [
-          "Next.js",
-          "Strapi",
-          "Auth0",
-          "VNPAY-QR",
-          "Docker",
-          "NGINX",
-          "Google Cloud",
-          "Docusaurus",
-          "Extension",
-          "UI/UX Design",
-          "UX Writing",
-          "Design System",
-          "Brand Design",
-          "Figma",
-          "Research",
-        ],
-        isExpanded: true,
-      },
-      {
-        id: "991692c4-7d02-4666-8d31-933c4831768d",
-        title: "Founder & Director",
-        employmentPeriod: {
-          start: "03.2024",
-        },
-        employmentType: "Part-time",
-        icon: "idea",
-        description: `- Lead and manage the company's strategy.
-- Oversee technical teams and product development.
-- Manage relationships with customers and partners.`,
-        skills: ["Business Ownership", "Business Law", "Business Tax"],
-      },
-    ],
-    isCurrentEmployer: true,
-  },
-  {
-    id: "tungtung",
-    companyName: "Tung Tung JSC",
-    companyLogo: "https://assets.chanhdai.com/images/companies/tungtung.webp",
-    positions: [
-      {
-        id: "3e831244-8d8c-41e2-b2ce-7f3946956afd",
-        title: "Web Developer",
-        employmentPeriod: {
-          start: "2020",
-          end: "2022",
+          start: "08.2022",
+          end: "10.2023",
         },
         employmentType: "Full-time",
-        description: `- Built a scalable design system for consistency and efficiency.
-- Built a complex rich-text editor based on ProseMirror and Slate for customizable content creation.
-- Integrated APIs with the Backend Team to enhance functionality.`,
         icon: "code",
+        description: `- Designed, developed, tested, and managed mission-critical applications managing U.S. security cooperation funding with strict reliability, audit, and compliance requirements across all phases of the software development life cycle.
+- Partnered with stakeholders and Product Owners to gather business requirements, analyze user needs, define technical specifications, and contribute to planning and quality assurance for government systems.
+- Developed and maintained applications using C# .NET framework while modifying existing code, supporting legacy Visual Basic systems, and implementing process improvements for database integrations with SQL Server.
+- Implemented security engineering protocols and conducted proactive code analysis to identify risks, optimize performance, and ensure compliance with federal security standards and best practices.`,
         skills: [
-          "React",
-          "Redux",
-          "Storybook",
-          "Lerna",
+          "C#",
+          ".NET",
+          "Visual Basic",
+          "SQL Server",
+          "Security Engineering",
           "Agile",
-          "Teamwork",
-          "Research",
+          "Government Compliance",
         ],
-      },
-      {
-        id: "13bd34c3-db84-4fad-8132-a6c89a42957e",
-        title: "Mobile Developer",
-        employmentPeriod: {
-          start: "2019",
-          end: "2020",
-        },
-        employmentType: "Full-time",
-        description: `- Rebuilt the app with React Native for better UX and performance.
-- Integrated MoMo and in-app purchases for seamless payments.
-- Optimized deployment for staging and production.
-- Published on App Store and Google Play, ensuring compliance.`,
-        icon: "code",
-        skills: [
-          "React Native",
-          "Redux",
-          "MoMo Payment API",
-          "App Store",
-          "Google Play Store",
-          "App Center",
-          "Agile",
-          "Teamwork",
-          "Research",
-        ],
-      },
-      {
-        id: "73151add-7adf-4035-a237-b5803ceb5478",
-        title: "UI/UX Designer",
-        employmentPeriod: {
-          start: "2018",
-          end: "2019",
-        },
-        employmentType: "Full-time",
-        description: `- Designed a Landing Page for enterprise clients.
-- Redesigned the Online Quiz Platform for a modern look on web and mobile.
-- Redesigned the Pricing interface for individual customers.
-- Enhanced UX by improving usability, navigation, and user flow.`,
-        icon: "design",
-        skills: ["UI/UX Design", "Sketch"],
       },
     ],
   },
   {
-    id: "freelance",
-    companyName: "Freelance",
+    id: "motionpoint",
+    companyName: "MotionPoint",
     positions: [
       {
-        id: "f0becfba-057d-40db-b252-739e1654faa1",
-        title: "Full-stack Developer",
+        id: "software-engineer-motionpoint",
+        title: "Software Engineer",
         employmentPeriod: {
-          start: "2018",
-          end: "2020",
+          start: "03.2022",
+          end: "08.2022",
         },
-        employmentType: "Part-time",
-        description: `- Built an order management website with real-time delivery tracking.
-- Developed an e-commerce site for bird's nest products.
-- Created a map to display monitoring station data.
-- Designed a customizable WordPress landing page.`,
+        employmentType: "Full-time",
         icon: "code",
+        description: `- Implemented automated testing solutions using Selenium framework and managed deployment processes to AWS cloud platform, contributing to DevSecOps practices and continuous integration.
+- Migrated legacy Subversion repositories to Git-based version control systems, improving development workflow and enabling better collaboration across cross-functional development teams.
+- Built Docker-based containerized development environments and created comprehensive documentation, reducing new developer onboarding time by 60% and establishing best practices.
+- Participated in all aspects of agile development practices including planning, requirements gathering, testing, and quality assurance for production applications.`,
         skills: [
-          "Laravel",
-          "React",
-          "Express.js",
-          "Socket.IO",
-          "MongoDB",
-          "Firebase",
-          "WordPress",
+          "Selenium",
+          "AWS",
           "Docker",
-          "NGINX",
+          "Git",
+          "DevSecOps",
+          "CI/CD",
+          "Agile",
         ],
       },
+    ],
+  },
+  {
+    id: "orange-county",
+    companyName: "Orange County Government",
+    positions: [
       {
-        id: "0eecdfcb-028d-41f4-93e9-1269ba7eff7e",
-        title: "Graphic & UI/UX Designer",
+        id: "software-developer-orange",
+        title: "Software Developer",
         employmentPeriod: {
-          start: "2018",
-          end: "2019",
+          start: "09.2021",
+          end: "03.2022",
         },
-        employmentType: "Part-time",
-        description: "Designed logos, posters, ads, and UI.",
-        icon: "design",
+        employmentType: "Full-time",
+        icon: "code",
+        description: `- Developed and tested a Python-based application for large-scale data processing of storm sewer GIS data, consolidating fragmented datasets into a centralized system for improved data accessibility and analytics.
+- Designed and implemented a unified user interface enabling stakeholders to query GIS data and generate automated email communications, integrating custom capabilities for storm sewer information management.
+- Automated operations tasks through GIS data processing integration with email automation, streamlining communication workflows for county operations teams.
+- Collaborated with cross-functional environmental and infrastructure teams to gather requirements, participate in planning activities, and ensure the application met operational needs throughout the software development life cycle.`,
         skills: [
-          "Creativity",
-          "UI/UX Design",
-          "Graphic Design",
-          "Sketch",
-          "Adobe Photoshop",
-          "Adobe Illustrator",
+          "Python",
+          "GIS",
+          "Data Processing",
+          "Automation",
+          "Email Integration",
+        ],
+      },
+    ],
+  },
+  {
+    id: "ussouthcom",
+    companyName: "USSOUTHCOM",
+    positions: [
+      {
+        id: "system-administrator",
+        title: "System Administrator",
+        employmentPeriod: {
+          start: "01.2021",
+          end: "09.2021",
+        },
+        employmentType: "Full-time",
+        icon: "code",
+        description: `- Managed and maintained SharePoint infrastructure supporting military command operations, ensuring 99% uptime and compliance with DoD security standards across government systems.
+- Administered user permissions, site configurations, and content organization across multiple SharePoint environments, collaborating with cross-functional operational teams.
+- Coordinated with stakeholders to implement site improvements, document libraries, and workflow automations, introducing new capabilities to enhance collaboration and information sharing.
+- Automated maintenance tasks and performed regular system audits, security updates, and backup procedures to maintain data integrity and meet government compliance requirements.`,
+        skills: [
+          "SharePoint",
+          "System Administration",
+          "DoD Security Standards",
+          "Automation",
         ],
       },
     ],
@@ -238,89 +189,21 @@ In-house Project: [ZaDark](https://zadark.com)
     companyName: "Education",
     positions: [
       {
-        id: "c47f5903-88ae-4512-8a50-0b91b0cf99b6",
-        title: "University of Science — VNUHCM",
+        id: "ucf",
+        title: "University of Central Florida",
         employmentPeriod: {
           start: "08.2018",
-          end: "2026",
+          end: "08.2022",
         },
         icon: "education",
-        description: `- Currently studying for a Bachelor's degree in Information Systems.
-- Language Proficiency: B1 English Level.
-- Achieved several awards, including:
-  - Bronze Medal — 10th Design, Manufacturing, and Application Award 2022
-  - 2nd Prize — Business Startup Competition 2019`,
+        description: `- Bachelor of Science in Information Technology
+- CompTIA Security+ Certified
+- Focus on software development, security, and information systems`,
         skills: [
-          "C++",
-          "Java",
-          "Python",
-          "Data Structures",
-          "Algorithms",
-          "Advanced Databases",
-          "Systems Design",
-          "Distributed Systems",
-          "Software Engineering",
-          "Self-learning",
-          "Teamwork",
-          "Presentation",
-        ],
-      },
-      {
-        id: "70131ed8-36d9-4e54-8c78-eaed18240eca",
-        title: "Ly Tu Trong High School for the Gifted — Can Tho City",
-        employmentPeriod: {
-          start: "08.2015",
-          end: "06.2018",
-        },
-        icon: "education",
-        description: `- Student of the Specialized Computer Science Program.
-- Granted direct admission to university due to achieving 3rd Prize at the national level.
-- [Achieved numerous awards](https://baocantho.com.vn/nguyen-chanh-dai-17-tuoi-va-19-giai-thuong-a97348.html) at city and national levels, including:
-  - [3rd Prize](https://muctim.tuoitre.vn/cong-cu-ho-tro-viec-day-va-hoc-55107.htm) — National Science and Engineering Fair 2018 (ViSEF)
-  - 1st Prize — Can Tho City Science and Engineering Fair 2018
-  - Creativity Award — Binh Duong Hackathon 2017
-  - Consolation Prize — National Youth and Children's Creativity Contest 2016
-  - [1st Prize](https://www.youtube.com/watch?v=OYgugvjqU4A) — Can Tho City Youth and Children's Creativity Contest 2016
-  - 3rd Prize — National Young Informatics Contest 2016
-- Achieved the title of Outstanding Student from Grade 10-12.
-- Selected for the National Excellent Student Contest in Informatics for two consecutive years during high school.
-- Honored on the school's "Hall of Fame" for academic achievements.
-- Developed a feature using Node.js and Pandoc to recognize multiple-choice questions from .docx files and upload them to an [online quiz platform](https://youtu.be/QjR99wdmTyo) I created.
-- Developed websites based on Laravel framework.
-- Built websites with PHP and MySQL, following the MVC architecture.`,
-        skills: [
-          "Algorithms",
-          "C++",
-          "PHP",
-          "MySQL",
-          "Laravel",
-          "Node.js",
-          "Pandoc",
-          "Self-learning",
-        ],
-      },
-      {
-        id: "36c4c6fb-02d0-48c0-8947-fda6e9a24af7",
-        title: "Thuan Hung Secondary School",
-        employmentPeriod: {
-          start: "08.2011",
-          end: "06.2015",
-        },
-        icon: "education",
-        description: `- Recognized as the most outstanding student of the district.
-- Achieved numerous awards at city and national levels:
-  - Consolation Prize — National Young Informatics Contest 2015
-  - Consolation Prize — National Young Informatics Contest 2014
-  - 1st Prize — Can Tho City Young Informatics Contest 2014
-- Achieved the title of Outstanding Student from Grade 6-9.
-- Developed websites using the open-source NukeViet CMS.`,
-        skills: [
-          "Pascal",
-          "NukeViet",
-          "HTML",
-          "CSS",
-          "JavaScript",
-          "Self-learning",
+          "Information Technology",
+          "Software Development",
+          "Security",
+          "CompTIA Security+",
         ],
       },
     ],

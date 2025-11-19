@@ -20,12 +20,6 @@ export const TECH_STACK: TechStack[] = [
     categories: ["Language"],
   },
   {
-    key: "php",
-    title: "PHP",
-    href: "https://www.php.net/",
-    categories: ["Language"],
-  },
-  {
     key: "java",
     title: "Java",
     href: "https://www.java.com/",
@@ -90,22 +84,10 @@ export const TECH_STACK: TechStack[] = [
     theme: true,
   },
   {
-    key: "mobx-state-tree",
-    title: "MobX-State-Tree",
-    href: "https://mobx-state-tree.js.org/",
-    categories: ["State Management"],
-  },
-  {
     key: "redux",
     title: "Redux",
     href: "https://redux.js.org/",
     categories: ["State Management"],
-  },
-  {
-    key: "antd",
-    title: "Ant Design",
-    href: "https://ant.design/",
-    categories: ["Library", "UI Library"],
   },
   {
     key: "react-router",

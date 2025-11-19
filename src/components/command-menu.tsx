@@ -59,16 +59,6 @@ const MENU_LINKS: CommandLinkItem[] = [
     href: "/",
     icon: ChanhDaiMark,
   },
-  {
-    title: "Components",
-    href: "/components",
-    icon: Icons.react,
-  },
-  {
-    title: "Blog",
-    href: "/blog",
-    icon: RssIcon,
-  },
 ];
 
 const PORTFOLIO_LINKS: CommandLinkItem[] = [
@@ -93,24 +83,9 @@ const PORTFOLIO_LINKS: CommandLinkItem[] = [
     icon: Icons.project,
   },
   {
-    title: "Honors & Awards",
-    href: "/#awards",
-    icon: Icons.award,
-  },
-  {
     title: "Certifications",
     href: "/#certs",
     icon: Icons.certificate,
-  },
-  {
-    title: "Testimonials",
-    href: "/#testimonials",
-    icon: MessageCircleMoreIcon,
-  },
-  {
-    title: "Download vCard",
-    href: "/vcard",
-    icon: CircleUserIcon,
   },
 ];
 
@@ -247,21 +222,21 @@ export function CommandMenu({ posts }: { posts: Post[] }) {
 
           <CommandSeparator />
 
-          <CommandLinkGroup
+          {/* <CommandLinkGroup
             heading="Components"
             links={componentLinks}
             fallbackIcon={Icons.react}
             onLinkSelect={handleOpenLink}
-          />
+          /> */}
 
           <CommandSeparator />
 
-          <CommandLinkGroup
+          {/* <CommandLinkGroup
             heading="Blog"
             links={blogLinks}
             fallbackIcon={TextIcon}
             onLinkSelect={handleOpenLink}
-          />
+          /> */}
 
           <CommandSeparator />
 

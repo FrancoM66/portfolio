@@ -1,33 +1,28 @@
 import type { User } from "@/features/portfolio/types/user";
 
 export const USER: User = {
-  firstName: "Chánh Đại",
-  lastName: "Nguyễn",
-  displayName: "Chánh Đại",
-  username: "ncdai",
+  firstName: "Francisco",
+  lastName: "Morales",
+  displayName: "Francisco Morales",
+  username: "FrancoM66",
   gender: "male",
   pronouns: "he/him",
-  bio: "Creating with code. Small details matter.",
+  bio: "Lead Software Engineer specializing in full-stack development and security engineering.",
   flipSentences: [
-    "Creating with code. Small details matter.",
-    "Design Engineer",
-    "Open Source Contributor",
+    "Lead Software Engineer @ Booz Allen Hamilton",
+    "Full-Stack Developer",
+    "Security Engineering Specialist",
   ],
-  address: "Ho Chi Minh City, Viet Nam",
-  phoneNumber: "Kzg0Nzc3ODg4MTQ4", // E.164 format, base64 encoded (https://t.io.vn/base64-string-converter)
-  email: "ZGFpQGNoYW5oZGFpLmNvbQ==", // base64 encoded
-  website: "https://chanhdai.com",
-  jobTitle: "Design Engineer",
+  address: "Washington, D.C.",
+  phoneNumber: "Nzg2OTE0NzUyOA==", // E.164 format, base64 encoded (786-914-7528)
+  email: "Zm1vcmFsZXM5MTcyQGdtYWlsLmNvbQ==", // base64 encoded (fmorales9172@gmail.com)
+  website: "https://github.com/FrancoM66",
+  jobTitle: "Lead Software Engineer",
   jobs: [
     {
-      title: "Senior Frontend Developer & UI Design Lead",
-      company: "Simplamo",
-      website: "https://simplamo.com?ref=IN-926722",
-    },
-    {
-      title: "Founder",
-      company: "Quaric",
-      website: "https://quaric.com",
+      title: "Lead Software Engineer",
+      company: "Booz Allen Hamilton",
+      website: "https://www.boozallen.com",
     },
   ],
   //   about: `
@@ -42,32 +37,33 @@ export const USER: User = {
   // Let's connect and collaborate!
   //   `,
   about: `
-- **Design Engineer** with **5+ years of experience**, known for pixel-perfect execution and strong attention to small details.
-- Skilled in **Next.js**, **React**, **TypeScript**, and modern front-end technologies; building high-quality, user-centric web and mobile applications.
-- Passionate about exploring new technologies and turning ideas into reality through polished, thoughtfully crafted personal projects.
-- Creator of [ZaDark](https://zadark.com) (2022): enhances the Zalo experience on PC & Web
-  - **80k+ downloads** on [SourceForge](https://sourceforge.net/projects/zadark)
-  - **20k+ active users** on the [Chrome Web Store](https://chromewebstore.google.com/detail/llfhpkkeljlgnjgkholeppfnepmjppob)
-- Creator of [React Wheel Picker](https://react-wheel-picker.chanhdai.com): iOS-like wheel picker with inertia scrolling & infinite loop
-  - **4k+ weekly downloads** on [npm](https://www.npmjs.com/package/@ncdai/react-wheel-picker)
-  - [▲Vercel OSS Program](https://vercel.com/blog/summer-2025-oss-program#react-wheel-picker) summer 2025 cohort
+- **Lead Software Engineer** at **Booz Allen Hamilton** with **Top Secret Clearance**
+- **3+ years of experience** building enterprise-level applications for government and defense sectors
+- Expertise in **C#/.NET**, **TypeScript**, **React**, **Angular**, and modern full-stack technologies
+- Specialized in **DevSecOps**, **microservices architecture**, and **multi-enclave environments** (Unclassified, Secret, Top Secret)
+- Strong background in **security engineering**, **database optimization**, and **CI/CD pipelines**
+- Led development of enterprise visitor management system processing **100,000+ registrations** with **99.9% uptime**
+- Proficient in **SAFe Agile** methodologies, Program Increments (PI), and Agile Release Train (ART) ceremonies
+- Built dynamic SQL-based query engines achieving **sub-second response times** through optimized indexing
+- Published enterprise-grade component libraries and established coding standards across multiple teams
 `,
-  avatar: "https://assets.chanhdai.com/images/chanhdai-avatar-ghibli.webp",
+  avatar: "/audio/franco2.png",
   ogImage:
     "https://assets.chanhdai.com/images/screenshot-og-image-light.png?t=1763205174",
-  namePronunciationUrl: "/audio/chanhdai.mp3",
-  timeZone: "Asia/Ho_Chi_Minh",
+  namePronunciationUrl: "/audio/Francisco_Morales.mp3",
+  timeZone: "America/New_York",
   keywords: [
-    "ncdai",
-    "nguyenchanhdai",
-    "nguyen chanh dai",
-    "chanhdai",
-    "chanh dai",
-    "iamncdai",
-    "quaric",
-    "zadark",
-    "nguyễn chánh đại",
-    "chánh đại",
+    "Francisco Morales",
+    "FrancoM66",
+    "Lead Software Engineer",
+    "Booz Allen Hamilton",
+    "Software Engineer",
+    "Top Secret Clearance",
+    "Full Stack Developer",
+    "DevSecOps",
+    "TypeScript Developer",
+    "React Developer",
+    "C# .NET Developer",
   ],
-  dateCreated: "2023-10-20", // YYYY-MM-DD
+  dateCreated: "2025-01-19", // YYYY-MM-DD
 };
