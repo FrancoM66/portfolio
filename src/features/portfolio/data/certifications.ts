@@ -6,6 +6,7 @@ export const CERTIFICATIONS: Certification[] = [
     issuer: "U.S. Government",
     issueDate: "2025-04-01",
     credentialID: "Active",
+    credentialURL: "#",
   },
   {
     title: "CompTIA Security+",
@@ -13,5 +14,6 @@ export const CERTIFICATIONS: Certification[] = [
     issuerIconName: "comptia",
     issueDate: "2022-08-01",
     credentialID: "Security+ Certified",
+    credentialURL: "https://www.comptia.org/certifications/security",
   },
 ];
